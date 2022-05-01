@@ -144,6 +144,7 @@ class _LoginPageState extends State<LoginPage> implements LoginPageContract {
                       hintText: 'Password',
                       border: InputBorder.none
                   ),
+                  obscureText: true,
                 ),
               ),
             ],

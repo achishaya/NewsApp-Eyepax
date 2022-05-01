@@ -13,7 +13,7 @@ class _RegisterPageState  extends State<RegisterPage> {
   bool _isLoading = false;
   final formKey = new GlobalKey<FormState>();
   final scaffoldKey = new GlobalKey<ScaffoldState>();
-  String _name, _username, _password;
+  String _name = '', _username = '', _password = '';
 
 
 
@@ -92,6 +92,7 @@ class _RegisterPageState  extends State<RegisterPage> {
                       hintText: 'Password',
                       border: InputBorder.none
                   ),
+                  obscureText: true,
                 ),
               ),
             ],
